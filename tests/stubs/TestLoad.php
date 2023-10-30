@@ -6,18 +6,18 @@ use PHPUnit\Framework\TestCase;
 class TestLoad extends TestCase
 {
     /**
-     * @covers Mahdi\dddd::methodToTest
-     * @test is it load
+     * @covers first test
+     * @test it works
      */
-    function is_it_load(){
+    function first_test(){
 
         $this->assertTrue(true);
     }
     /**
-     * @covers Mahdi\dddd::methodToTest
-     * @test is it load
+     * @covers second test
+     * @test it works well
      */
-    function is_it_ldddddoad(){
+    function second_test(){
 
         $this->assertTrue(true);
     }
