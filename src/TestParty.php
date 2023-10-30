@@ -19,7 +19,7 @@ class TestParty implements Extension
             return;
         }
 
-        // Register yourself as a subscriber to listen for test events
+        // Register subscribers to count passed and finished tests
         $facade->registerSubscribers(
             new EndTestHandler,
             new PassedTestSubscriber,
