@@ -1,0 +1,18 @@
+{
+    "name": "mahdi/testparty",
+    "description": "Celebrate your test victories with joy and flair!",
+    "authors": [
+        {
+            "name": "Mahdi Mirhendi",
+            "email": "mahdimirhendi@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mahdi\\Testparty\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.4"
+    }
+}
